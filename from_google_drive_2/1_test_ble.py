@@ -3,7 +3,7 @@ import asyncio
 from bleak import BleakClient, BleakScanner
 
 
-DEVICE_NAME = "airship_2"
+DEVICE_NAME = "deepseek19"
 UART_SERVICE_UUID = "6E400001-B5A3-F393-E0A9-E50E24DCCA9E"
 UART_RX_CHAR_UUID = "6E400002-B5A3-F393-E0A9-E50E24DCCA9E"
 
@@ -11,8 +11,8 @@ COMMANDS = {
     "f": "516",     # forward
     "b": "615",     # backward
     "s": "507",     # stop
-    "l": "813",     # turn left/right depends on motor wiring
-    "r": "714",     # turn left/right depends on motor wiring
+    "r": "813",     # turn left/right depends on motor wiring
+    "l": "714",     # turn left/right depends on motor wiring
 }
 
 def build_payload(raw_command):

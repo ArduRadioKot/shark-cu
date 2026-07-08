@@ -60,7 +60,7 @@ from scipy.signal import butter, sosfilt, sosfilt_zi
 # NEON STYLE
 plt.style.use('dark_background')
 
-TARGET_SERIAL = '822580' # Серийник нейроинтерфейса для подключения, например "821619"
+TARGET_SERIAL = '822580'
 PROGRESS_DEBUG = True
 
 # GLOBAL LIMITS (for EEG, PSD, Alpha)

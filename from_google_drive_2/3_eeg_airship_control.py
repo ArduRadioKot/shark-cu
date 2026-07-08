@@ -66,8 +66,8 @@ plt.style.use('dark_background')
 from bleak import BleakClient, BleakScanner
 
 
-TARGET_SERIAL = '822574' # Серийник нейроинтерфейса для подключения, например "821619"
-BLE_DEVICE_NAME = "airship_2"
+TARGET_SERIAL = '822580' # Серийник нейроинтерфейса для подключения, например "821619"
+BLE_DEVICE_NAME = "deepseek19"
 UART_SERVICE_UUID = "6E400001-B5A3-F393-E0A9-E50E24DCCA9E"
 UART_RX_CHAR_UUID = "6E400002-B5A3-F393-E0A9-E50E24DCCA9E"
 BLE_DEBUG = True
