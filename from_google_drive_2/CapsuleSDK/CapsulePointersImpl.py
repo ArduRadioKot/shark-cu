@@ -1,1 +1,0 @@
-capsule_pointers = dict()
